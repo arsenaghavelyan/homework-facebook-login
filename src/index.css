@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+.image{
+  width: 240px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.container{
+  border-radius: 8px;
+  width: 396px;
+  height: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  background-color: white;
+  margin: 0 auto;
+}
+.cont-header{
+  text-align: center;
+  font-size: 18px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  padding: 24px 0 16px 0;
+}
+.input{
+  text-align: center;
+}
+#text , #password{
+  margin-top: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+}
+.enter{
+  width: 360px;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 14px 16px;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 20px 19px;
+}
+.forgotText{
+  color: #1877f2;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.forgotText:hover{
+  text-decoration: underline;
+}
+.or{
+  color: #96999e;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create{
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  color: white;
+  border: 1px solid #42b72a;
+  margin: 10px 93px;
+  cursor: pointer;
+  font-weight: bold;
+}
